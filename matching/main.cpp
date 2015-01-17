@@ -32,15 +32,14 @@ void feature_imgcrop();
 void feature_dataset();
 
 void demo();
-void foundfile();
 
 int main()
 {
-//    folder();
-//    readfile();
-//    cropimage();
-//    feature_imgcrop();
-//    feature_dataset();
+    folder();
+    readfile();
+    cropimage();
+    feature_imgcrop();
+    feature_dataset();
 
     //    demo();
     waitKey(0);
@@ -135,13 +134,6 @@ void feature_imgcrop()
 //Rut trich dac trung dataset va luu vao thu muc dataset_feature
 void feature_dataset()
 {
-
-}
-
-//example
-void foundfile()
-{
-
 
 }
 
